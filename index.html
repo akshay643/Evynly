@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Evenly - Split bills fairly with friends. Currently in beta."
+    />
+    <meta
+      name="keywords"
+      content="bill splitting, expense sharing, group expenses"
+    />
+
+    <title>Evenly - Split Bills, Stay Friends (Beta)</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo">
+            <span class="logo-icon">ev=nly</span>
+            <span class="beta-badge">BETA</span>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#download" class="btn btn-primary">Join Beta</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="beta-pill">
+              <i class="fas fa-flask"></i>
+              Now in Beta Testing
+            </div>
+            <h1 class="hero-title">
+              Split Bills Fairly,<br />
+              <span class="gradient-text">Stay Friends</span>
+            </h1>
+            <p class="hero-subtitle">
+              The smart way to share expenses with friends, roommates, and
+              travel companions. Track who paid what, settle up instantly.
+            </p>
+            <div class="hero-buttons">
+              <a href="#download" class="btn btn-large btn-primary">
+                <i class="fab fa-google-play"></i>
+                Download Beta
+              </a>
+              <a href="#features" class="btn btn-large btn-secondary">
+                <i class="fas fa-info-circle"></i>
+                Learn More
+              </a>
+            </div>
+            <p class="beta-note">
+              <i class="fas fa-users"></i> Join our growing community of beta
+              testers
+            </p>
+          </div>
+          <div class="hero-image">
+            <div class="phone-mockup">
+              <!-- Placeholder for app screenshot -->
+              <div class="mockup-placeholder">
+                <i class="fas fa-mobile-alt"></i>
+                <p>App Screenshot</p>
+                <span>Coming Soon</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-wave">
+        <svg
+          viewBox="0 0 1440 120"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0L60 10C120 20 240 40 360 46.7C480 53 600 47 720 43.3C840 40 960 40 1080 46.7C1200 53 1320 67 1380 73.3L1440 80V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0V0Z"
+            fill="#F9FAFB"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Everything you need to split bills</h2>
+          <p class="section-subtitle">
+            Simple, powerful features that make sharing expenses effortless
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3 class="feature-title">Group Expenses</h3>
+            <p class="feature-description">
+              Create groups for roommates, trips, or any shared expenses. Add
+              friends instantly and start tracking.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <h3 class="feature-title">Smart Calculations</h3>
+            <p class="feature-description">
+              Split equally or customize amounts. Our algorithm minimizes
+              transactions to settle everyone with the fewest payments.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-wallet"></i>
+            </div>
+            <h3 class="feature-title">Instant Settlements</h3>
+            <p class="feature-description">
+              Settle up with payment proof upload. Track who paid what with
+              real-time balance updates.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <h3 class="feature-title">Expense Analytics</h3>
+            <p class="feature-description">
+              See spending patterns by category. Track your share across all
+              groups with beautiful visualizations.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-bell"></i>
+            </div>
+            <h3 class="feature-title">Smart Reminders</h3>
+            <p class="feature-description">
+              Never forget to settle up. Get gentle reminders for pending
+              payments and settlement requests.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h3 class="feature-title">Group Chat</h3>
+            <p class="feature-description">
+              Discuss expenses within groups. Add notes to expenses and keep
+              everyone in the loop.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">How Evenly Works</h2>
+          <p class="section-subtitle">Three simple steps to fair splits</p>
+        </div>
+
+        <div class="steps-container">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3 class="step-title">Create a Group</h3>
+              <p class="step-description">
+                Add your friends, roommates, or travel companions to a group.
+                Give it a fun name and icon.
+              </p>
+              <div class="step-placeholder">
+                <i class="fas fa-image"></i>
+                <span>Screenshot placeholder</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3 class="step-title">Add Expenses</h3>
+              <p class="step-description">
+                Log who paid for what. Split equally or customize amounts. Add
+                photos and notes for clarity.
+              </p>
+              <div class="step-placeholder">
+                <i class="fas fa-image"></i>
+                <span>Screenshot placeholder</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3 class="step-title">Settle Up</h3>
+              <p class="step-description">
+                See who owes what with our smart settlement plan. Pay with proof
+                and everyone gets notified instantly.
+              </p>
+              <div class="step-placeholder">
+                <i class="fas fa-image"></i>
+                <span>Screenshot placeholder</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beta Notice -->
+    <section class="beta-notice">
+      <div class="container">
+        <div class="beta-notice-content">
+          <div class="beta-notice-icon">
+            <i class="fas fa-exclamation-triangle"></i>
+          </div>
+          <div class="beta-notice-text">
+            <h3>This is a Beta Version</h3>
+            <p>
+              Evenly is currently in beta testing. You may encounter bugs or
+              missing features. Your feedback helps us improve! Please report
+              any issues or suggestions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+      <div class="container">
+        <div class="download-content">
+          <h2 class="download-title">Ready to Join the Beta?</h2>
+          <p class="download-subtitle">
+            Help us shape the future of bill splitting
+          </p>
+          <div class="download-buttons">
+            <!-- Placeholder for Google Play link -->
+            <a href="#" class="store-button store-button-disabled">
+              <i class="fab fa-google-play"></i>
+              <div class="store-text">
+                <span class="store-label">COMING SOON</span>
+                <span class="store-name">Google Play</span>
+              </div>
+            </a>
+            <!-- Placeholder for App Store link -->
+            <a href="#" class="store-button store-button-disabled">
+              <i class="fab fa-apple"></i>
+              <div class="store-text">
+                <span class="store-label">COMING SOON</span>
+                <span class="store-name">App Store</span>
+              </div>
+            </a>
+          </div>
+          <p class="download-note">
+            <i class="fas fa-info-circle"></i>
+            Beta version available soon. Join our waitlist to get notified!
+          </p>
+
+          <!-- Email Signup Form -->
+          <div class="waitlist-form">
+            <input
+              type="email"
+              placeholder="Enter your email for beta access"
+              required
+            />
+            <button type="submit">
+              <i class="fas fa-paper-plane"></i>
+              Join Waitlist
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <span class="logo-icon">ev=nly</span>
+            </div>
+            <p class="footer-description">
+              The smart way to split bills and share expenses with friends.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h4 class="footer-title">Product</h4>
+            <ul class="footer-links">
+              <li><a href="#features">Features</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#download">Download</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4 class="footer-title">Support</h4>
+            <ul class="footer-links">
+              <li><a href="mailto:support@evenly.app">Contact Us</a></li>
+              <li><a href="#">Report a Bug</a></li>
+              <li><a href="#">Give Feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h4 class="footer-title">Legal</h4>
+            <ul class="footer-links">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 Evenly. All rights reserved. Beta Version</p>
+          <p>Made with ❤️ in India</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+  </body>
+</html>
