@@ -108,4 +108,4 @@ document.querySelectorAll('.store-button-disabled').forEach((button) => {
   });
 });
 
-console.log('✨ Evenly Beta website loaded!');
+console.log('✨ evynly Beta website loaded!');
